@@ -309,7 +309,7 @@ public:
 
 		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
-		glClearColor(1.0f, 1.0f, 1.0f, 0.0f); //Background color
+		glClearColor(0.0f, 0.0f, 0.0f, 0.0f); //Background color
 	}
 	void OnResize(int iX, int iY) 
 	{
